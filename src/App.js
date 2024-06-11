@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './components/hooks/useTelegram';
-import 
 
 function App() {
   const {onToggleButton, tg} = useTelegram();
